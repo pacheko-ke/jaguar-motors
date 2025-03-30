@@ -8,8 +8,8 @@ export default function Navbar() {
     <div className='flex justify-between px-2 py-1 top-0 fixed z-20 bg-black shadow-lg w-full h-10'>
 
       {/* miobile nav */}
-      <div className={mobileNavActive?"flex justify-between  text-white text-4xl absolute bg-black left-0 fixed px-4 h-[100vh] w-full pt-10":"hidden"}>
-        <div className="flex flex-col">
+      <div className={mobileNavActive?"flex justify-between  text-white text-5xl absolute bg-black left-0 fixed px-4 h-[100vh] w-full pt-10":"hidden"}>
+        <div className="flex flex-col gap-2">
           <h1>Store</h1>
           <h1>Log In</h1>
           <h1>Sign Up</h1>

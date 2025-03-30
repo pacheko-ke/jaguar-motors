@@ -31,6 +31,8 @@ export default function Footer() {
 
 
             <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deleniti necessitatibus hic vero. Corrupti similique minima, recusandae blanditiis praesentium saepe tenetur repellendus nulla in quisquam, architecto deleniti nobis soluta. Quis corporis culpa ipsa error aut deserunt, facilis delectus voluptates impedit molestiae! Omnis iusto necessitatibus expedita dolores dolor iste veritatis repellendus.</p>
+            <h1 className='text-center text-sm'>Developed by Patrick.</h1>
         </div>
+        
     )
 }
