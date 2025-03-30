@@ -10,6 +10,7 @@ function App() {
 
   return (
     <>
+    <title>Jaguar - In a world full of conventions, copy nothing</title>
     <Navbar/>
     <Hero/>
     <AnimatedScroll/>
