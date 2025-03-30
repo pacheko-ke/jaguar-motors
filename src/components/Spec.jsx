@@ -1,9 +1,10 @@
 import React from 'react'
 import Engine from "../assets/engine.png"
+import { motion } from "motion/react"
 
 export default function () {
     return (
-        <div className='flex flex-col items-center text-white px-4 mt-6 gap-2'>
+        <motion.div initial={{opacity:0,x:-500}} whileInView={{opacity:1,x:0}} transition={{duration:1}} className='flex flex-col items-center text-white px-4 mt-6 gap-2'>
             {/* <img src={Engine} alt="enginwimage" className='absolute'/> */}
             <p className='text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem optio aliquam nobis totam neque aliquid accusamus nesciunt quis cupiditate eveniet, praesentium, dolores a recusandae quasi, architecto dolore similique nostrum! Pariatur.
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-red-400">
@@ -11,6 +12,6 @@ export default function () {
                 </svg>
             </p>
 
-        </div>
+        </motion.div>
     )
 }
