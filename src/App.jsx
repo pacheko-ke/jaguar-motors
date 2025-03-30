@@ -4,6 +4,7 @@ import AnimatedScroll from './components/AnimatedScroll'
 import Discover from './components/Discover'
 import Newsletter from './components/Newsletter'
 import Footer from './components/Footer'
+import Spec from './components/Spec'
 function App() {
  
 
@@ -13,8 +14,9 @@ function App() {
     <Hero/>
     <AnimatedScroll/>
     <Discover/>
+    <Spec/>
     <Newsletter/>
-    <Footer/>+
+    <Footer/>
     </>
   )
 }
