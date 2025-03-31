@@ -22,7 +22,13 @@ export default function Navbar() {
       </div>
 
       <h1 className=' italic text-2xl text-red-500 font-bold'>Jaguar.</h1>
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white" onClick={()=>activateMobileNav(!mobileNavActive)}>
+      <div className="hidden md:flex text-white gap-6 text-lg ">
+      <h1>Store</h1>
+      <h1>Log In</h1>
+      <h1>Sign Up</h1>
+      <h1>Demo Ride</h1>
+    </div>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white flex md:invisible" onClick={()=>activateMobileNav(!mobileNavActive)}>
         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
       </svg>
 
