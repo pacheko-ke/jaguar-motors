@@ -5,6 +5,7 @@ import Discover from './components/Discover'
 import Newsletter from './components/Newsletter'
 import Footer from './components/Footer'
 import Spec from './components/Spec'
+import Cookie from './components/Cookie'
 function App() {
  
 
@@ -18,6 +19,7 @@ function App() {
     <Spec/>
     <Newsletter/>
     <Footer/>
+    <Cookie/>
     </>
   )
 }
