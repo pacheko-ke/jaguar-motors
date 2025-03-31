@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div className='pb-6 text-white flex flex-col gap-y-4 text-sm pt-10 px-4'>
+        <div className='pb-6 text-white flex flex-col gap-y-4 text-sm pt-10 px-4 md:px-20'>
             <div className='flex justify-between'>
                 <h1>RACING</h1>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
