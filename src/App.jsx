@@ -19,7 +19,7 @@ function App() {
     <Spec/>
     <Newsletter/>
     <Footer/>
-    <Cookie/>
+   
     </>
   )
 }
